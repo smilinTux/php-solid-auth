@@ -471,7 +471,7 @@ class WAC {
 					)
 				);
 			break;
-			case "PATCH";
+			case "PATCH":
 				$grants = array();
 				if (!$this->filesystem->fileExists($path)) {
 					$grants[] = array(
